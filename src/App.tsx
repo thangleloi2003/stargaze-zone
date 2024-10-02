@@ -214,7 +214,7 @@ export default function App() {
         <div className="mx-auto p-8">
           <div className="mx-auto grid grid-cols-2 gap-20 py-0 px-6">
             <div className="top-32 h-fit sticky">
-              <div className="relative flex overflow-hidden rounded-lg hover:bg-zinc-900 flex-col size-full border border-zinc-300 dark:border-zinc-800">
+              <div className=" translate-x-44 relative flex overflow-hidden rounded-lg hover:bg-zinc-900 flex-col size-[80%] border border-zinc-300 dark:border-zinc-800">
                 <div
                   className="flex shrink-0 overflow-hidden bg-zinc-900"
                   style={{ aspectRatio: 1 / 1, width: "100%" }}
@@ -788,8 +788,8 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="w-[500px] my-8 flex flex-wrap justify-start gap-y-3 rounded-lg border border-zinc-800 p-4 md:mt-0 md:justify-between md:gap-y-3 md:p-4">
-                <div className="flex w-1/3 flex-col gap-1 md:w-auto md:gap-2">
+              <div className="w-full my-8 flex flex-wrap justify-start gap-y-3 rounded-lg border border-zinc-800 p-4 md:mt-0 md:justify-between md:gap-y-3 md:p-4">
+                <div className="flex w-[20%] flex-col gap-1 md:w-auto md:gap-2">
                   <div className="text-sm text-zinc-400">Price</div>
                   <div className="text-sm text-white">
                     <span className="relative -inset-x-0.5 !h-max rounded p-0.5">
@@ -797,7 +797,7 @@ export default function App() {
                     </span>
                   </div>
                 </div>
-                <div className="flex w-1/3 flex-col gap-1 md:w-auto md:gap-2">
+                <div className="flex w-[20%] flex-col gap-1 md:w-auto md:gap-2">
                   <div className="text-sm text-zinc-400">Last Sale</div>
                   <div className="text-sm text-white">
                     <span className="relative -inset-x-0.5 !h-max rounded p-0.5">
@@ -811,7 +811,7 @@ export default function App() {
                     </span>
                   </div>
                 </div>
-                <div className="flex w-1/3 flex-col gap-1 md:w-auto md:gap-2">
+                <div className="flex w-[20%] flex-col gap-1 md:w-auto md:gap-2">
                   <div className="text-sm text-zinc-400">Owner</div>
                   <div className="text-sm text-white">
                     <span className="relative -inset-x-0.5 !h-max rounded p-0.5">
@@ -892,7 +892,7 @@ export default function App() {
                     </span>
                   </div>
                 </div>
-                <div className="flex w-1/3 flex-col gap-1 md:w-auto md:gap-2">
+                <div className="flex w-[20%] flex-col gap-1 md:w-auto md:gap-2">
                   <div className="text-sm text-zinc-400">Top Offer</div>
                   <div className="text-sm text-white">
                     <span className="relative -inset-x-0.5 !h-max rounded p-0.5">
@@ -906,7 +906,7 @@ export default function App() {
                     </span>
                   </div>
                 </div>
-                <div className="flex w-1/3 flex-col gap-1 md:w-auto md:gap-2 flex-auto md:flex-none">
+                <div className="flex w-[20%] flex-col gap-1 md:w-auto md:gap-2 flex-auto md:flex-none">
                   <div className="text-sm text-zinc-400">Floor Price</div>
                   <div className="text-sm text-white">
                     <span className="relative -inset-x-0.5 !h-max rounded p-0.5">
