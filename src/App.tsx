@@ -91,7 +91,7 @@ export default function App() {
 
                     <li>
                       <button className="group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-zinc-100 hover:text-zinc-800 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 focus:bg-zinc-100 focus:text-zinc-800 focus:outline-none">
-                        Chain
+                        DAO
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -141,7 +141,7 @@ export default function App() {
             </div>
 
             <div className="flex flex-auto flex-row items-center justify-end space-x-5">
-              <button className="rounded-lg bg-white shadow-sm sm:text-sm placeholder:text-zinc-500 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-[#db3777] focus:ring-0 focus:ring-offset-0 flex h-10 w-[1000px] items-center justify-between !bg-transparent p-2 text-left text-zinc-600 transition-all border border-gray-600 hover:border-gray-400 hover:!bg-zinc-900 xl:w-full xl:!bg-zinc-900/75 xl:px-4">
+              <button className="rounded-lg bg-white shadow-sm sm:text-sm placeholder:text-zinc-500 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-[#db3777] focus:ring-0 focus:ring-offset-0 flex h-10 w-full items-center justify-between !bg-transparent p-2 text-left text-zinc-600 transition-all border border-gray-600 hover:border-gray-400 hover:!bg-zinc-900 xl:w-full xl:!bg-zinc-900/75 xl:px-4">
                 <span className="inline-flex items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
